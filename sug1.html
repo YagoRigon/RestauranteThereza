@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RESTAURANTE THEREZINHA</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="ttt.jpg" type="image/x-jpg"/>
+	<script type="text/javascript">
+	function Muda_logo(){
+		document.getElementById('logochange').src="logo.png";
+	}
+	function Volta_logo(){
+		document.getElementById('logochange').src="logobranca.png";
+	}
+		function cor(){
+		document.getElementById("link").style.backgroundColor="#393c42";
+	}
+	function mudacor(){
+		document.getElementById("link").style.backgroundColor="#1f2530";
+	}
+		function cor2(){
+		document.getElementById("link2").style.backgroundColor="#393c42";
+	}
+	function mudacor2(){
+		document.getElementById("link2").style.backgroundColor="#1f2530";
+	}
+			function cor3(){
+		document.getElementById("link3").style.backgroundColor="#393c42";
+	}
+	function mudacor3(){
+		document.getElementById("link3").style.backgroundColor="#1f2530";
+	}
+	function cor4(){
+	document.getElementById("link4").style.backgroundColor="#393c42";
+	}
+	function mudacor4(){
+	document.getElementById("link4").style.backgroundColor="#1f2530";
+	}
+	</script>
+
+	<style type="text/css">
+#topbar{
+	width: 100%;
+	height: 90px;
+	background-color:#393c42;
+}
+#logo{
+position: relative;
+top:-9px;
+}
+.menu{
+	width: 100%;
+	height: 30px;
+	background-color: #1f2530;
+	position: relative;
+	top:-15px;
+    display: inline-block;
+}
+#corpo{
+	width: 100%;
+	height:800px;
+	background-color: #000;
+	opacity: 0.8;
+
+}
+#cardarpio{
+	opacity: 100;
+	color: white;
+}
+#preco{
+	color: red;
+}
+a{
+	position: relative;
+	top: 6px;
+	background-color: #393c42;
+    color: white;
+ 	width: 100px;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+#sobre{
+	opacity: 100;
+	position: relative;
+	top: 260px;
+	background-color: black;
+}
+body{
+	background-image: url("restaurantetherezinha.jpg");
+	background-repeat: no-repeat;
+	margin:0;
+	width: 100%;
+	height: 100%;
+	background-color: #904540;
+}
+#R{
+	text-align:left;
+	font-size:25px;
+	padding:4px;
+	}
+#F{
+	text-align:left;
+	font-size:20px;
+	padding:4px;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div id="topbar">
+		<div id="logo"> <center><img src="logobranca.png" id="logochange" onMouseover="Muda_logo();" onMouseout="Volta_logo();"></center></div>
+
+			<div class="menu"><center>
+
+				<div class="menu-content">
+					<a href="teste.html" id="link" onmouseover="mudacor();" onmouseout="cor();">Home</a>
+					<a href="sobre.html" id="link2" onmouseover="mudacor2();" onmouseout="cor2();">Sobre nós</a>
+					<a href="restaurantes.html" id="link3" onmouseover="mudacor3();" onmouseout="cor3();">Restaurantes</a>
+					<a href="Melhorar.html" id="link4" onMouseover="mudacor4();" onmouseout="cor4();">Sugestões</a>
+				</div>										
+			</center>
+		 	</div>
+	</div>
+<br><br>
+<center><div id="corpo"><br><pre id="cardarpio">
+<center><h1 id="sobre">Sugestão enviada com sucesso</h1></center>
+<center><h2 id="sobre">Obrigado por nos ajudar a estarmos melhorando sempre !</h2></center>
+</div>
+</body>
+</html>

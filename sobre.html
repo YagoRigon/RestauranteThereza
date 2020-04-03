@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RESTAURANTE THEREZINHA</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="ttt.jpg" type="image/x-jpg"/>
+	<script type="text/javascript">
+	function Muda_logo(){
+		document.getElementById('logochange').src="logo.png";
+	}
+	function Volta_logo(){
+		document.getElementById('logochange').src="logobranca.png";
+	}
+		function cor(){
+		document.getElementById("link").style.backgroundColor="#393c42";
+	}
+	function mudacor(){
+		document.getElementById("link").style.backgroundColor="#1f2530";
+	}
+		function cor2(){
+		document.getElementById("link2").style.backgroundColor="#393c42";
+	}
+	function mudacor2(){
+		document.getElementById("link2").style.backgroundColor="#1f2530";
+	}
+			function cor3(){
+		document.getElementById("link3").style.backgroundColor="#393c42";
+	}
+	function mudacor3(){
+		document.getElementById("link3").style.backgroundColor="#1f2530";
+	}
+		function cor4(){
+	document.getElementById("link4").style.backgroundColor="#393c42";
+	}
+	function mudacor4(){
+	document.getElementById("link4").style.backgroundColor="#1f2530";
+	}
+	</script>
+
+	<style type="text/css">
+#topbar{
+	width: 100%;
+	height: 90px;
+	background-color:#393c42;
+}
+#logo{
+position: relative;
+top:-9px;
+}
+.menu{
+	width: 100%;
+	height: 30px;
+	background-color: #1f2530;
+	position: relative;
+	top:-15px;
+    display: inline-block;
+}
+#corpo{
+	width: 100%;
+	height:800px;
+	background-color: #000;
+	opacity: 0.8;
+
+}
+#cardarpio{
+	opacity: 100;
+	color: white;
+}
+#preco{
+	color: red;
+}
+a{
+	position: relative;
+	top: 6px;
+	background-color: #393c42;
+    color: white;
+ 	width: 100px;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+#sobre{
+	opacity: 100;
+
+}
+#texto{
+width: 80%;
+}
+body{
+	background-image: url("restaurantetherezinha.jpg");
+	background-repeat: no-repeat;
+	margin:0;
+	width: 100%;
+	height: 100%;
+	background-color: #904540;
+}
+#numeros{
+	position: relative;
+	bottom: 50px;
+}
+#R{
+	width: 30px;
+	text-align:left;
+	font-size:25px;
+	padding:4px;
+	position: relative;
+	bottom: 60px;
+	right: 165px;
+	color:red;
+	}
+#F{
+	width: 240px;
+	height: 20px;
+	text-align:left;
+	font-size:20px;
+	padding:4px;
+	position: relative;
+	bottom: 117px;
+	left:70px; 
+	color: #fff;
+	background-color: red;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div id="topbar">
+		<div id="logo"> <center><img src="logobranca.png" id="logochange" onMouseover="Muda_logo();" onMouseout="Volta_logo();"></center></div>
+
+			<div class="menu"><center>
+
+				<div class="menu-content">
+					<a href="teste.html" id="link" onmouseover="mudacor();" onmouseout="cor();">Home</a>
+					<a href="sobre.html" id="link2" onmouseover="mudacor2();" onmouseout="cor2();">Sobre nós</a>
+					<a href="restaurantes.html" id="link3" onmouseover="mudacor3();" onmouseout="cor3();">Restaurantes</a>
+					<a href="Melhorar.html" id="link4" onMouseover="mudacor4();" onmouseout="cor4();">Sugestões</a>
+				</div>										
+			</center>
+		 	</div>
+	</div>
+<br><br>
+	<center><div id="corpo"><br><pre id="cardarpio">
+<center><h1 id="sobre">Sobre a Therezinha:</h1></center><p id="texto">
+<font size=2.5 face="Arial">A rede de restaurantes Therezinha, localizado em diferentes partes do Brasil, foi fundada inicialmente em 14/11/2017.
+No Rio de Janeiro, mais precisamente em Niterói. Mesmo com um cardápio especializado em comida mineira, fizeram muito sucesso, principalmente
+o Medalhão, que pelos criticos é considerado o carro chefe do restaurante. Com o sucesso da primeira sede, a dona Thereza resolveu abriu mais 3
+restaurantes, localizados na grande São Paulo, Recife e Salvador.
+</font></p>
+<center><h1 id="sobre">Como tudo começou:</h1></center>
+<font size=2.5 face="Arial"><p id="texto">Thereza, desde pequena adorava ver sua mãe cozinhar e com o passar dos anos, foi se apegando à culinária, e ao jeito de como 
+sua mãe cozinhava. Anos se passaram e ela resolveu fazer um curso de culinária para aperfeiçoar ainda mais o que aprendeu com sua mãe. Até que no dia 14
+de novembro de 2017, ela pediu um empréstimo ao banco e em 3 meses de restaurante, ela conseguiu pagar o empréstimo e desde então o restaurante começou
+sua caminhada para o sucesso e que vem sendo considerado o restaurante com maior ascensão no país.
+</font></p>
+<center><h1 id="sobre"><p id="texto">Horários de Funcionamento:</h1></center>
+<font size=2.5 face="Arial">•De segunda a sexta-feira: das 11h30 às 23h30;
+<br>
+•Sábados: das 11h30 às 00h;
+<br>
+•Domingos e Feriados: das 11h30 às 21h.
+</font>
+<center><h1 id="sobre">Telefones:</h1></center>
+<font size=2.5 face="Arial" id="numeros">
+(21)9223-3899;
+(11)95331822;
+(81)81637086;
+(71)88367947;</font>
+<font size=2.5 face="Arial">
+<p id="R">Reservas:
+<p id="F">Feitas apenas pelo telefone</p></p>
+</pre></p></div></center></font>
+	<br>
+
+
+</body>
+</html>
